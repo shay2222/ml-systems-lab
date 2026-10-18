@@ -7,3 +7,4 @@
 |---|---|---|---|---|
 | 01-kv-cache (baseline, no batching) | Tesla T4 (Colab, free) | Qwen2.5-0.5B-Instruct | Tokens/second | YOUR AVERAGE |
 | 01-kv-cache (with vs without cache) | Tesla T4 (Colab, free) | Qwen2.5-0.5B-Instruct | Tokens/second | WITH: X, WITHOUT: Y, speedup Z× |
+| 01-kv-cache (with vs without cache) | Tesla T4 (Colab, free) | Qwen2.5-0.5B-Instruct | Tokens/second | 200 tokens: ~0.7-1.0x (noise). 500 tokens: 1.1-1.2x. 700 tokens: 1.5x (WITH 29.5, WITHOUT 19.5). Single run per row; results vary between runs. |
