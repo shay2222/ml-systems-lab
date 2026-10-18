@@ -1,7 +1,5 @@
 Experiment 02: how throughput changes with batch size.
 
-Experiment 02: how throughput changes with batch size.
-
 | Batch size | Total tokens/second | Speedup vs batch 1 |
 |---|---|---|
 | 1 | 22.2 | 1.0x |
